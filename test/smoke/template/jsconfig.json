@@ -5,5 +5,5 @@
       "@/*": ["src/*"]
     }
   },
-  "exclude": ["node_modules", "dist", ".history"]
+  "exclude": ["node_modules", "dist"]
 }
