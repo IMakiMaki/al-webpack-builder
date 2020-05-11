@@ -15,4 +15,5 @@ install:
   - yarn
 
 scripts:
+  - cd /
   - yarn test
