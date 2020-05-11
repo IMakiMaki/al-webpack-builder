@@ -6,7 +6,7 @@
   "author": "AntiLun",
   "license": "MIT",
   "scripts": {
-    "test": "nyc mocha ./test/index.js",
+    "test": "nyc mocha",
     "lint": "eslint ./lib --fix"
   },
   "devDependencies": {

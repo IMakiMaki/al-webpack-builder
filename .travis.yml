@@ -13,7 +13,7 @@ install:
   - yarn
   - cd ./test/smoke/template
   - yarn
+  - cd ../../../
 
 scripts:
-  - cd /
   - yarn test
