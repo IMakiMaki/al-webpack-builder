@@ -6,7 +6,6 @@
   "author": "AntiLun",
   "license": "MIT",
   "scripts": {
-    "commitmsg": "validate-commit-msg",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "test": "nyc mocha",
     "lint": "eslint ./lib --fix"
@@ -41,5 +40,10 @@
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-merge": "^4.2.2"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "validate-commit-msg"
+    }
   }
 }
